@@ -1,0 +1,52 @@
+body{
+    background-color: #f4a261;
+    display:flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timeBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hour{
+    padding: 10px;
+}
+
+#min{
+    padding: 10px;
+}
+
+#sec{
+    padding: 10px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#str{
+    padding:40px;
+    background-color: green;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+#rst{
+    padding:40px;
+    background-color: aliceblue;
+    margin-right:10px;
+    border-radius: 30px;
+}
+#stp{
+    padding: 40px;
+    background-color: red;
+    border-radius: 30px;
+}
