@@ -2,6 +2,7 @@ body{
     background-color: #f4a261;
     display:flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     display: flex;
@@ -34,19 +35,28 @@ header{
 }
 
 #str{
-    padding:40px;
+    padding:30px;
     background-color: green;
     margin-right: 10px;
     border-radius: 30px;
 }
 #rst{
-    padding:40px;
+    padding:30px;
     background-color: yellow;
     margin-right:10px;
     border-radius: 30px;
 }
 #stp{
-    padding: 40px;
+    padding: 30px;
     background-color: red;
     border-radius: 30px;
 }
+
+@media screen and (min-width: 320px) {
+    body {
+      margin: 30px;
+    }
+    header {
+        margin:10px;
+    }
+  }
