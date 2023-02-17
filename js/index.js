@@ -42,7 +42,6 @@ function startTime(){
     };
     seconds.innerHTML = (sc);
     minutes.innerHTML = (mn);
-    console.log(sc);
 };
 // Function changes all the time values to 0 and changes HTML elements.
 function resetTime(){
@@ -52,12 +51,10 @@ function resetTime(){
     clearInterval(interval);
     seconds.innerHTML = (sc);
     minutes.innerHTML = (mn);
-    console.log("timer has been reset");
 };
 // Function stops the stop watch.
 function stopTime(){
     clearInterval(interval);
-    console.log("timer has stopped! Good job!")
 };
 
 
